@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <main class="container">
+        <aside class="sidebar">
+            <figure>
+                <img src="https://img.icons8.com/pastel-glyph/2x/person-male--v2.png">
+                <figcaption>temporary figure caption</figcaption>
+            </figure>
+            <!-- <a href="index.html">close</a> -->
+        </aside>
+
+        <div class="tabs">
+            <div id="home" class="tab-body active">
+                <h1>Currently...</h1>
+                <figure>
+                    <img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1404254A4DE0749909">
+                </figure>
+
+                <h3>updates</h3>
+                <ul>
+                    <li>created landing page</li>
+                    <li>created home page</li>
+                </ul>
+            </div>
+
+            <div id="projects" class="tab-body">
+                INSERT PROJECTS HERE
+            </div>
+
+            <div id="resume" class="tab-body">
+                INSERT RESUME HERE
+            </div>
+
+            <div id="contactme" class="tab-body">
+                INSERT CONTACT ME FORM HERE
+            </div>
+
+            <div class="tab-controls">
+                <button class="active" onCLick="toggleTab(event, 'home')">home</button>
+                <button onCLick="toggleTab(event, 'projects')">projects</button>
+                <button onCLick="toggleTab(event, 'resume')">resume</button>
+                <button onCLick="toggleTab(event, 'contactme')">contact me</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="tabs.js"></script>
+
+</html>
