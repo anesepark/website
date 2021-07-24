@@ -17,7 +17,9 @@ function Projects() {
             <div id="top" style={{ position: 'absolute', top: '0' }}></div>
             <h3>projects in progress</h3>
                 {info}
-            <a href="#top">x</a>
+            <br/><br/>
+            <a id="scroll" href="#top">scroll to top</a>
+
         </div>
     )
 }

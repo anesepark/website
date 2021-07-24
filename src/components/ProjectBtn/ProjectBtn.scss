@@ -6,7 +6,20 @@
     gap: 10px;
 
     background-color:#fff;
+    color: rgb(106, 31, 59);
     border-radius: 5px;
     border: solid 3px rgb(207, 81, 129);
+
+    transition: 0.5s;
+
+    &:hover{
+      background-color:rgb(255, 222, 235);
+      transition: 0.5s;
+    }
+
+    svg{
+      fill: rgb(106, 31, 59);
+    }
   }
+
 }
