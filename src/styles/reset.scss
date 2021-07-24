@@ -1,0 +1,25 @@
+/* reset  */
+* {
+  box-sizing: border-box;
+}
+
+body { line-height: 1; }
+
+ul { list-style: none; }
+p{ margin: 0; }
+
+figure { margin: 0; } 
+button {cursor: pointer;}
+
+h1,h2,h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}

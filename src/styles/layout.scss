@@ -1,0 +1,79 @@
+// layout.scss
+.container {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  gap: 20px;
+  height: 70vh;
+  width: 70vw;
+  background-color: rgb(220, 220, 220);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.sidebar, .tab-body {
+  padding: 30px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: solid 1px rgb(106, 102, 102);
+}
+
+.sidebar{
+  flex: 1;
+  text-align: center;
+}
+
+
+// tabs.scss
+.tabs {
+  flex: 3;
+  display: flex;
+  position: relative;
+  
+  .tab-body{
+    z-index: 1;
+    flex-basis: 100%;
+    overflow-y: scroll;
+  }
+  
+  .tab-controls {
+    width: 100px;
+    position: absolute;
+    right: -99px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+    & button{
+      display: block;
+      text-decoration: none;
+      padding: 10px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color:rgb(218, 103, 147);
+      color: #fff;
+
+      transition: 0.5s;
+    
+      &.active{
+        z-index: 1;
+        background-color: #fff;
+        color:rgb(106, 102, 102);
+        border: solid 1px #000;
+        border-left: none;
+
+        &:hover{
+          background-color:rgb(242, 229, 233);
+          transition: 0.5s;
+        }
+      }
+    }
+
+    button:hover{
+      background-color:rgb(233, 129, 169);
+      transition: 0.5s;
+    }
+
+  }
+}
