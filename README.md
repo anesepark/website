@@ -1,13 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Experimental personal website created during the RedVentures software engineering internship in 2021. First used HTML, CSS, JavaScript, then transitioned into using React and SCSS to allow for reusability.
 
-## Available Scripts
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## How to run:
+If there is a problem with SASS compiling, download node-sass:
+#### `npm install node-sass`
 
 In the project directory, you can run:
+#### `npm start`
 
-### `npm start`
+This runs the website in developmental mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
