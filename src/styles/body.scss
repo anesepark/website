@@ -7,13 +7,12 @@ body{
   width: 100%;
   
   font-family: 'Cousine', monospace;
-  // font-size: 16px;
   color:rgb(63, 60, 60);
   scroll-behavior: smooth;
 }
 h1{ font-size: 1.4rem;}
 h3{ font-size: 1.2rem; }
-p, figcaption{ font-size: 0.9rem; }
+p, figcaption{ font-size: 0.9rem; padding: 0.3rem;}
 a{text-decoration: none;}
 
 li{ font-size: 0.8rem; }
@@ -28,3 +27,8 @@ table {
 
 button { border: solid 1px black; font-family: 'Cousine', monospace;}
 
+.drawn-component{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

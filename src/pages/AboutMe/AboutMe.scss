@@ -1,0 +1,24 @@
+.resume-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  & button{
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    width: 7rem;
+  
+    background-color:#fff;
+    color: rgb(106, 31, 59);
+    border-radius: 5px;
+    border: solid 2px rgb(207, 81, 129);
+  
+    transition: 0.5s;
+  
+    &:hover{
+      background-color:rgb(255, 222, 235);
+      transition: 0.5s;
+    }
+  }
+}

@@ -1,5 +1,21 @@
 
-.sidebar figcaption{
-  text-align: left;
-  line-height: 1rem;
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  
+  & figcaption{
+    text-align: left;
+    line-height: 1rem;
+  } 
+  & .prjBtn{
+    margin: auto;
+    margin-top: 5px;
+  }
+
+}
+.sidebar-description{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-around;
 }

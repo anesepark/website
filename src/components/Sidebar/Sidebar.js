@@ -1,16 +1,23 @@
 import React from 'react';
+import ProjectBtn from '../ProjectBtn/ProjectBtn'
 import './sidebar.scss'
 
 function Sidebar(){
   return(
     <aside className="sidebar">
       <figure>
-          <img src="https://img.icons8.com/pastel-glyph/2x/person-male--v2.png"/>
-          <figcaption>a 4th year computer science student that just really wants a cat. likes learning languages, drawing, and playing video games in her free time.</figcaption>
-          <br/>
-          <br/>
-          <figcaption>Rhodes College Class of 2022</figcaption>
+          <img src="https://img.icons8.com/pastel-glyph/2x/person-male--v2.png" alt=""/>
       </figure>
+      <div className="sidebar-description">
+        <div className="sidebar-figcaption">
+          <figcaption>Chae Youn "Anese" Park</figcaption>
+          <figcaption>Rhodes College 2022</figcaption>
+        </div>
+        <div className="sidebar-code">
+          <p>Feel free to take a peek at the source code of this website down below:</p>
+          <ProjectBtn projLink = {""} noLink = {false}/>
+        </div>
+      </div>
     </aside>
   )
 }

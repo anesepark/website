@@ -8,7 +8,14 @@ function Projects() {
     const [info, setInfo] = useState([]);
     
     useEffect(() => {
-        const projComponents = Data.map(prj => <Project imgLink={prj.imgLink} projLink={prj.projLink} projTitle={prj.projTitle} imgDesc={prj.imgDesc} />) 
+        const projComponents = Data.map(prj => 
+        <Project 
+            imgLink={prj.imgLink} 
+            projLink={prj.projLink} 
+            projTitle={prj.projTitle} 
+            imgDesc={prj.imgDesc} 
+            noLink = {prj.noLink}
+        />) 
         setInfo(projComponents)
     }, []);
     
