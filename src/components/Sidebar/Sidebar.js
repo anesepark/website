@@ -15,7 +15,7 @@ function Sidebar(){
         </div>
         <div className="sidebar-code">
           <p>Feel free to take a peek at the source code of this website down below:</p>
-          <ProjectBtn projLink = {""} noLink = {false}/>
+          <ProjectBtn projLink = {"https://github.com/anesepark/website"} noLink = {false}/>
         </div>
       </div>
     </aside>

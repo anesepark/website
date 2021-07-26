@@ -29,6 +29,7 @@ function Home(props){
       <li>created home page</li>
       <li>converted pages into React components</li>
       <li>finished home page and tabs logic in React</li>
+      <li>finished information on all pages</li>
     </div>
   )
 }
